@@ -9,7 +9,7 @@ description: >
 license: MIT
 metadata:
   author: world-class-designer
-  version: "6.0.0"
+  version: "6.1.0"
 tags: [design-intelligence, editorial-design, art-direction, information-design, typography, brand-visual, visual-judgment, creative-strategy, composition, color]
 ---
 
@@ -36,14 +36,17 @@ Apple/Aesop/Pentagram 式克制。
 Audience → Objective → Message → Insight → Visual Concept
 ```
 
-**判断之后**依次决定（判断链 11 步，展开见 J1 §2）：
+判断链全序（展开见 J1 §0–§2）：
 
 ```
-信息权重 → 焦点 → 空间结构 → 构图 → 排印 → 色彩 → 媒体 → 节奏
+内容 → 主张 → 信息权重 → 焦点 → 空间结构 → 构图骨架 → 排印 → 色彩 → 媒体 → 节奏 → 执行
 ```
 
 空间与层级永远先于媒体与装饰；媒体晚于排印与色彩进入——图调并入色彩骨架，
 图标并入线与排印语言。先判断，再设计；先构图，再执行；能一次解决，不多轮修补。
+
+**提问与素材**：Audience、Objective、Message 任一说不清且会改变方向时，先用 ask_user
+问（≤3 问），不脑补画像。用户已给的品牌规范与素材优先于 J6 样本锚。
 
 **补丁禁令**：发现问题不做局部修补——回到错误发生的**判断层**重新决策，下游随之重推。
 把判断错误埋进执行的修补，只是让错误更难看见。
@@ -103,11 +106,11 @@ Clarity > Complexity · Visual Concept > Styling。**
 
 ---
 
-## 5. 路由（按需激活 3-6 个模块，其余休眠）
+## 5. 路由（底座 + 媒介模块，其余休眠）
 
 | 模块 | 职责 | 何时 |
 |:---|:---|:---|
-| [J1 判断](references/J1-Design-Judgment.md) | 策略五问 · 判断链 11 步 · 取舍语法 · 一次强审查 · 判断卡 | **永远**（大脑） |
+| [J1 判断](references/J1-Design-Judgment.md) | 策略五问 · 判断链 · 取舍语法 · 强审查 · 判断卡 | **永远**（大脑） |
 | [J2 编辑空间](references/J2-Editorial-Space.md) | 空间判断 · 版心 · 网格性格 · 轴线系统 · 错位与张力 | **几乎永远** |
 | [J4 排印](references/J4-Typography.md) | 一案一声 · 字号阶与比例 · 基线 · 微观排印 · 数字与字段 · 中西文混排 | **几乎永远** |
 | [J3 色彩·材质·动效](references/J3-Color-Material-Motion.md) | 色彩推导链 · 三角色纪律 · 材质物理 · 光 · 动效 | 配色、质感、动效 |
@@ -116,9 +119,9 @@ Clarity > Complexity · Visual Concept > Styling。**
 | [J7 信息与叙事](references/J7-Experience-Memory.md) | So-What · 页面功能 · 密度档位 · 节奏曲线 · 全案终审 | 信息编排、多页 |
 | [J8 生产与交付](references/J8-Production-Verify.md) | 硬底线 · 交付姿态 · 过程纪律 | **交付前必过** |
 
-媒介速配：演示/汇报 `J1 J2 J4 J5 J7`（品牌 +J6，质感 +J3）· 报告/白皮书 `J1 J2 J4 J7`
-（图表 +J5）· 编辑/长文 `J1 J2 J4 J3`（图像 +J5）· 品牌/海报 `J1 J2 J4 J3 J6` ·
-网页/屏幕 `J1 J2 J4 J3 J5` · 信息图/数据新闻 `J1 J2 J4 J5 J7`。
+激活规则：**底座 J1 + J2 + J4**，加媒介所需模块（≤3 个），**J8 交付前必过**（不计数）。
+媒介速配：演示/汇报 `J5 J7`（+J6 品牌 或 +J3 质感，二选一）· 报告/白皮书 `J7`（+J5 图表）·
+编辑/长文 `J3`（+J5 图像）· 品牌/海报 `J3 J6` · 网页/屏幕 `J3 J5` · 信息图/数据新闻 `J5 J7`。
 微任务（改字/换数/微调）→ J8 §4 快速通道。
 **一次判断原则**：网格、版心策略、字号阶、色彩关系、图标语言、密度档位——
 全案只判一次（J1 §4.2），后续页面继承并局部变奏。
