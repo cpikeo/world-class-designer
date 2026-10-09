@@ -24,7 +24,7 @@
 | **极简建筑** | Therme Vals（Zumthor）· 光之教堂（安藤忠雄） | 石材底（粗面、低光泽）、1px 灰线、大面积留白（案例描述）、唯一硬边高亮 | 价值来自"少的勇气" |
 | **未来科技** | Apple · Nothing | 8/12px 网格、0.5px 微分割、白砂基底、记忆色 1%、零回弹（spring 170/26）、`metalness 0.9` 铝+玻璃 | 新奇靠材质不靠色相 |
 | **电影暗调** | A24 · Blade Runner | 暗黑 `#0D0D0D`、Condensed 84px `-0.04em`、文字穿图、胶片底噪 1%、慢推缓动、留白 50-55% | 暗是光的克制；记忆点 = 一束光 |
-| **静奢手作** | Hermès · The Row · Aesop | 黄金比例格、Garamond italic、象牙白/马鞍橙 5%、皮革 BRDF、重阻尼（spring 90/22）；The Row 极端留白 60-68% 无线无框 | 昂贵感来自"不在乎被看见" |
+| **静奢手作** | Hermès · The Row · Aesop | 黄金比例格、Garamond italic、象牙白/马鞍橙 5%、皮革 BRDF、重阻尼（spring 90/22）；The Row 留白极端、无线无框（案例描述） | 昂贵感来自"不在乎被看见" |
 | **社论人文** | Monocle · Kinfolk · NYT · FT | 密栏 subgrid、大字重衬线、1-2px 墨线、暗黄纸/藏青、翻页阻尼 | 密度是美德，节奏是编辑力 |
 | **数据新闻** | NYT Graphics · The Pudding · Reuters Graphics | 标注驱动、直接标注无图例、灰阶 + 单强调色、排印优先于图形装饰、滚动分步叙事 | 说服力来自"看一眼就懂了" |
 | **野兽主义** | Rick Owens | 巨石字块、圆角 0、粗重黑影、压迫性尺度对比、清水混凝土/锈铁 | 权力感来自重量 |
