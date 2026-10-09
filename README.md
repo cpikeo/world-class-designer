@@ -16,7 +16,7 @@ Typography · Experience · Creative Strategy。
 ## 使用
 
 从 [SKILL.md](SKILL.md) 开始：它是唯一的路由与宪法（六条根原则 + 八位 Director + 模块表）。
-按媒介与任务激活（底座 J1+J2+J4，加媒介所需 ≤3 个，J8 交付前必过），**不要全量加载**。
+按 [SKILL §5](SKILL.md) 的默认 / 触发 / 跳过规则激活模块，**不要全量加载**。
 
 版本演进见 git 历史（`git log`）。
 
