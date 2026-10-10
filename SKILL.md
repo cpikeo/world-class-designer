@@ -9,7 +9,7 @@ description: >
 license: MIT
 metadata:
   author: world-class-designer
-  version: "7.5.2"
+  version: "7.6.0"
 tags: [design-intelligence, editorial-design, art-direction, information-design, typography, brand-visual, visual-judgment, creative-strategy, composition, color]
 ---
 
@@ -95,7 +95,7 @@ Audience → Objective → Message → Insight → Visual Concept
 - **决策启发式**（默认判断方式，偏离需一句话理由）：焦点数量、留白、色彩角色与面积、排印、图像与图标数量、节奏。
 - **情境例外**（由内容、品牌、媒介或新证据决定，须写明理由）：多重心并列、高饱和对抗、多层象征、高密度并列。
 
-**数字读法**：J1–J7 中的数字是诊断阈值，不是配额。超过阈值时先问“它是否在争夺焦点、是否有明确作用”——答得出即保留，答不出再删。
+**数字读法**：J1–J7 中的数字是诊断阈值，不是配额；渲染、动画、印刷的具体参数是实现参数，只作起点（J1 §3.3）。超过阈值时先问“它是否在争夺焦点、是否有明确作用”——答得出即保留，答不出再删。
 
 **最高裁决**：
 **Judgment > Rules · Meaning > Decoration · Content > Template ·
