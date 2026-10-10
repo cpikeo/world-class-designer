@@ -9,7 +9,7 @@ description: >
 license: MIT
 metadata:
   author: world-class-designer
-  version: "7.4.0"
+  version: "7.5.0"
 tags: [design-intelligence, editorial-design, art-direction, information-design, typography, brand-visual, visual-judgment, creative-strategy, composition, color]
 ---
 
@@ -79,12 +79,11 @@ Audience → Objective → Message → Insight → Visual Concept
 
 1. **Conclusion First** — 每页先有主张再有形式；主张决定版式，版式服务主张。
 2. **One Focus** — 默认每页一个主重心、全案一个记忆点、一个强调色，第二名让路；内容本身并列或对抗（数据并列、多层象征、艺术张力）时可多重心，须在判断卡写明各重心的作用。
-3. **Linear Order** — 秩序优先来自轴线、对齐、细分隔线、留白、错位与字段结构，
-   不来自容器；一根细线说清的，不加卡片。卡片、圆角、阴影、渐变与装饰仅在具有
-   **明确语义**时使用。坚持线性、克制、编辑化、高级简约——但不僵化、不模板化。
+3. **Order Needs a Reason** — 每一处秩序都要能回答"为什么在这里"。秩序可以来自网格与轴线，也可以来自节奏、重复、碰撞、尺度冲突与视觉张力；选哪种由项目决定。
+   一根细线说清的，不加卡片；卡片、圆角、阴影、渐变与装饰仅在具有**明确语义**时使用。线性与留白是常用手段，不是所有项目的默认审美。克制不等于高级，不以克制证明判断力。
 4. **Space is Judged** — 空间不是剩余物，而是主动判断：版心、占幅、边距由内容量、
    信息权重、视觉焦点、画布比例、视觉重量与阅读路径共同判出（J2 §0）；负空间通过整体构图、张力与节奏工作。
-   禁止中央孤岛与被压缩在中部的版心（J2 §0.2）。
+   默认避免中央孤岛与被压缩在中部的版心（J2 §0.2）；若是有意的仪式性构图，须在判断卡写明理由。
 5. **Content > Template** — 版式因内容而生；禁止模板套用，禁止为"丰富"加图加图标加装饰。
 6. **Clarity > Complexity** — 说不清就先想清；砍到最简仍成立的复杂度才允许存在。
 
@@ -102,7 +101,7 @@ Audience → Objective → Message → Insight → Visual Concept
 **Judgment > Rules · Meaning > Decoration · Content > Template ·
 Clarity > Complexity · Visual Concept > Styling。**
 
-默认每页一个明确主焦点，通过**非对称配重、密度变化、尺度对比与空间张力**形成高级构图。张力源默认不超过两处；超过时逐一说明作用，说不清即删。
+默认每页一个明确主焦点，通过**非对称配重、密度变化、尺度对比与空间张力**形成有力的构图。张力源默认不超过两处；超过时逐一说明作用，说不清即删。
 
 ---
 
@@ -152,7 +151,7 @@ Clarity > Complexity · Visual Concept > Styling。**
 - 校验 = **一次强审查**（J1 §6：12 问 + J8 §1 硬底线），只做一轮，只改不过项；
   ≥3 问不过 → 回判断层重判，不打补丁。渲染或交付后的新证据不计入这一轮，按 §1 修订规则处理。
 - 全案终审四句（Experience Director，J7 §4）：
-  **统一而不重复 · 精致而不堆砌 · 充实而不拥挤 · 克制而不单薄。**
+  **统一而不重复 · 精致而不堆砌 · 充实而不拥挤 · 有分量而不单薄。**
 - 交付 = **判断卡（模板 J8 §5）+ 作品 +（仅不过项的）审查结果**（J8 §2）。过程不交付。
 - 禁项唯一归属：审美与空间反模式 → J6 §6；过程表演 → J8 §2；50:50 妥协与参数抄袭 → J1 §3。
 - **最高验收标准：世界级视觉判断与整体审美成立**——每页经得起 3 秒测试，全案经得起并排审看。

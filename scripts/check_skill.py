@@ -5,9 +5,11 @@ Checks:
   1. Internal links resolve to existing files.
   2. Qualified section refs ("J1 §2.9", "SKILL §5") point to a real heading.
   3. The judgment-card template (J8 §5) parses as YAML.
-  4. Context budget: characters per file and for common load sets.
+  4. Markdown anchors (#fragment) on internal links resolve to a heading.
+  5. Hard-phrase scan (禁止 / 不得 / 一律 / 多了是 …) — informational, for human review.
+  6. Context budget: characters per file and for common load sets.
 
-Exit code 1 if any reference/link/template check fails. Budget is informational.
+Exit code 1 if any link/anchor/section/template check fails. Items 5 and 6 are informational.
 Usage: python3 scripts/check_skill.py
 """
 import re
@@ -21,7 +23,8 @@ FILES = {"SKILL": ROOT / "SKILL.md", **{p.name[:2]: p for p in sorted((ROOT / "r
 
 HEADING = re.compile(r"^#{2,3}\s+(\d+(?:\.\d+)?)[.\s]", re.M)
 QREF = re.compile(r"\b(SKILL|J[1-8])\s*§\s*(\d+(?:\.\d+)?)")
-LINK = re.compile(r"\]\(([^)#\s]+)(?:#[^)]*)?\)")
+LINK = re.compile(r"\]\(([^)#\s]+)(?:#([^)\s]*))?\)")
+HARD = re.compile(r"禁止|不得|一律|绝不|不允许|多了是|至多|必须")
 
 # Load sets used for budget reporting (see SKILL §5 default combinations).
 LOAD_SETS = {
@@ -35,6 +38,17 @@ def headings(path):
     return set(HEADING.findall(path.read_text(encoding="utf-8")))
 
 
+def slugs(path):
+    """GitHub-style heading slugs (lowercase, punctuation removed, spaces -> '-')."""
+    out = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^#{1,6}\s+(.*)$", line)
+        if m:
+            t = re.sub(r"[^\w\- ]", "", m.group(1).strip().lower())
+            out.add(t.replace(" ", "-"))
+    return out
+
+
 def main():
     failures = []
     heads = {k: headings(v) for k, v in FILES.items()}
@@ -46,6 +60,10 @@ def main():
             target = (path.parent / m.group(1)).resolve()
             if not target.exists():
                 failures.append(f"{path.name}: broken link -> {m.group(1)}")
+            elif m.group(2) and target.suffix == ".md":
+                # 4: anchor must match a heading slug in the target file
+                if m.group(2) not in slugs(target):
+                    failures.append(f"{path.name}: broken anchor -> {m.group(1)}#{m.group(2)}")
         for m in QREF.finditer(text):
             doc, sec = m.group(1), m.group(2)
             if sec not in heads[doc]:
@@ -65,7 +83,16 @@ def main():
         except yaml.YAMLError as e:
             failures.append(f"J8 judgment_card YAML error: {e}")
 
-    # 4: budget (informational)
+    # 5: hard-phrase scan (informational; each hit is a candidate for a 启发式/区间 rewrite)
+    print("\n== Hard-phrase scan (informational, review by hand) ==")
+    for key, path in FILES.items():
+        hits = [(i + 1, ln.strip()) for i, ln in enumerate(path.read_text(encoding="utf-8").splitlines()) if HARD.search(ln)]
+        if hits:
+            print(f"  {path.name}: {len(hits)} line(s)")
+            for n, ln in hits:
+                print(f"    L{n}: {ln[:90]}")
+
+    # 6: budget (informational)
     chars = {k: len(v.read_text(encoding="utf-8")) for k, v in FILES.items()}
     print("== Context budget (characters, informational) ==")
     for k, v in chars.items():
