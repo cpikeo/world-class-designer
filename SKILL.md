@@ -9,7 +9,7 @@ description: >
 license: MIT
 metadata:
   author: world-class-designer
-  version: "7.0.0"
+  version: "7.1.0"
 tags: [design-intelligence, editorial-design, art-direction, information-design, typography, brand-visual, visual-judgment, creative-strategy, composition, color]
 ---
 
@@ -45,8 +45,8 @@ Audience → Objective → Message → Insight → Visual Concept
 空间与层级永远先于媒体与装饰；媒体晚于排印与色彩进入——图调并入色彩骨架，
 图标并入线与排印语言。先判断，再设计；先构图，再执行；能一次解决，不多轮修补。
 
-**提问与素材**：Audience、Objective、Message 任一说不清且会改变方向时，先用 ask_user
-问（≤3 问），不脑补画像。用户已给的品牌规范与素材优先于 J6 样本锚。
+**提问与素材**：Audience、Objective、Message 任一说不清且会改变方向时，先向用户提问
+（≤3 问），不脑补画像。用户已给的品牌规范与素材优先于 J6 样本锚。
 
 **补丁禁令**：发现问题不做局部修补——回到错误发生的**判断层**重新决策，下游随之重推。
 把判断错误埋进执行的修补，只是让错误更难看见。
@@ -79,8 +79,7 @@ Audience → Objective → Message → Insight → Visual Concept
    **明确语义**时使用。坚持线性、克制、编辑化、高级简约——但不僵化、不模板化。
 4. **Space is Judged** — 空间不是剩余物，而是主动判断：版心、占幅、边距由内容量、
    信息权重、视觉焦点、画布比例、视觉重量与阅读路径共同判出（J2 §0）；负空间通过整体构图、张力与节奏工作。
-   禁止中央孤岛、无效左右边白与被压缩在狭窄中部的版心。
-   **有呼吸但不松散｜内容充足但不拥挤｜版心舒展但不空洞｜密度丰富但不失高级。**
+   禁止中央孤岛与被压缩在中部的版心（J2 §0.2）。
 5. **Content > Template** — 版式因内容而生；禁止模板套用，禁止为"丰富"加图加图标加装饰。
 6. **Clarity > Complexity** — 说不清就先想清；砍到最简仍成立的复杂度才允许存在。
 
@@ -126,7 +125,7 @@ Clarity > Complexity · Visual Concept > Styling。**
 | [J5 图像·图表·图标](references/J5-Image-Cinema.md) | — | 要不要图、用什么图、图表选型、图像生成 | 无媒体，或媒体已定 |
 | [J6 品牌与标杆](references/J6-Brand-Benchmarks.md) | — | 从零定调、对标、品牌张力 | 已有品牌规范，只做执行 |
 | [J7 信息与叙事](references/J7-Experience-Memory.md) | ≥3 页 | 论证顺序、节奏、全案终审 | 单页、单图 |
-| [J8 生产与交付](references/J8-Production-Verify.md) | **交付前必过** | — | 微任务只过底线（§4） |
+| [J8 生产与交付](references/J8-Production-Verify.md) | **交付前必过** | — | 微任务只过 §1 底线 |
 
 **默认组合（起点，不是清单）**：
 - 多页演示：J1 J2 J4 J7，需要时加 J5、J6；
@@ -134,10 +133,11 @@ Clarity > Complexity · Visual Concept > Styling。**
 - 品牌官网：J1 J2 J4 J6，多屏叙事加 J7，图像与材质加 J3 J5；
 - 海报与单页：J1 J2 J4，定调加 J6 或 J3；
 - 数据信息图：J1 J2 J4 J5 J7；
-- 微任务（改字、换数、微调）：J8 §4。
+- 微任务（改字、换数、微调）：直接执行，只过 J8 §1 底线（J1 §4.1）。
+- 小型单页、无品牌资料的单图：J8 §4 快速通道。
 
 **一次判断原则**：网格、版心策略、字号阶、色彩关系、图标语言、密度档位——
-全案只判一次（J1 §4.2），后续页面继承并局部变奏。
+全案只判一次，后续页面继承并局部变奏。
 
 ---
 
@@ -147,6 +147,6 @@ Clarity > Complexity · Visual Concept > Styling。**
   ≥3 问不过 → 回判断层重判，不打补丁。
 - 全案终审四句（Experience Director，J7 §4）：
   **统一而不重复 · 精致而不堆砌 · 充实而不拥挤 · 克制而不单薄。**
-- 交付 = **判断卡 + 作品 +（仅不过项的）审查结果**（J8 §2）。过程不交付。
+- 交付 = **判断卡（模板 J8 §5）+ 作品 +（仅不过项的）审查结果**（J8 §2）。过程不交付。
 - 禁项唯一归属：审美与空间反模式 → J6 §6；过程表演 → J8 §2；50:50 妥协与参数抄袭 → J1 §3。
 - **最高验收标准：世界级视觉判断与整体审美成立**——每页经得起 3 秒测试，全案经得起并排审看。

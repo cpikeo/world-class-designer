@@ -20,6 +20,8 @@ Typography · Experience · Creative Strategy。
 
 版本演进见 git 历史（`git log`）。
 
+回归检查（只读，无依赖外的运行环境要求，需 PyYAML）：`python3 scripts/check_skill.py`——校验内部链接、§ 引用、判断卡模板与上下文体量。
+
 ## 核心纪律
 
 **Judgment > Rules · Meaning > Decoration · Content > Template ·
