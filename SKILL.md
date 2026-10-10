@@ -9,7 +9,7 @@ description: >
 license: MIT
 metadata:
   author: world-class-designer
-  version: "7.5.0"
+  version: "7.5.2"
 tags: [design-intelligence, editorial-design, art-direction, information-design, typography, brand-visual, visual-judgment, creative-strategy, composition, color]
 ---
 
