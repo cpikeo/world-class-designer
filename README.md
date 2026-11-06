@@ -2,11 +2,11 @@
 
 一个**判断层**技能：为具体受众、目标、内容和媒介作出准确、独特、可执行、可验证的设计决定。它回答“为什么这样设计、怎么判断它有效”；具体生产由专用技能与工具完成。
 
-当前版本 **v11.2.0**。
+当前版本 **v11.3.0**。
 
 ## 它做什么 / 不做什么
 
-**做**：任务理解与障碍判断、内容取舍、视觉概念、信息架构、版面结构与组合、出版级排印判断、摄影与图像艺术指导、色彩推导与输出校准、品牌叙事、多媒介交付边界、根因诊断、验收判据。
+**做**：任务理解与障碍判断、内容取舍、视觉概念、信息架构、版面结构与组合、出版级排印判断、摄影与图像艺术指导、色彩战略与输出校准、品牌战略与识别系统、视觉叙事、多媒介交付边界、根因诊断、验收判据。
 
 **不做**：不替代事实核验；不替代真实渲染、浏览器、印刷打样与辅助技术检查；不替代摄影、三维、视频的制作链；不生成模板库、自动布局引擎或审美评分。
 
@@ -23,8 +23,8 @@ world-class-designer/
     ├── 01-judgment-and-concept.md      # 判断、内容取舍、概念、辨识度
     ├── 02-composition-and-tension.md   # 结构、组合、平衡、跨页、多页节奏
     ├── 03-typography.md                # 字体、角色、行长断行、CJK、真实排印
-    ├── 04-image-colour-and-data.md     # 图片决策链、摄影、色彩、图表、动效
-    ├── 05-brand-and-narrative.md       # 品牌推导、文化、叙事、论证链
+    ├── 04-image-colour-and-data.md     # 图片、摄影、色彩战略、输出诊断、图表
+    ├── 05-brand-and-narrative.md       # 品牌战略、识别、差异化、叙事、语言
     ├── 06-medium-workflows.md          # 八类媒介的生产边界、交付物与验收
     └── 07-revision-and-validation.md   # 根因、证据、硬门槛、独立评估、停止
 ```
@@ -71,8 +71,9 @@ SKILL.md 第 7 节是运行时路由；下表供人工查阅。
 | 信息架构、版面结构、组合、平衡、跨页与多页节奏 | [02 构图与张力](references/02-composition-and-tension.md) |
 | 字体与文字角色、行长行距、断行、CJK 混排、字体加载与渲染 | [03 字体与排印](references/03-typography.md) |
 | 图片职责、摄影指导、取景光线材质、裁切、真实性 | [04 图像与色彩](references/04-image-colour-and-data.md) |
-| 色彩推导、综合色场、对比与色觉、图表与信息图 | [04 图像与色彩](references/04-image-colour-and-data.md) |
-| 品牌认知推导、文化表达、多页论证与叙事 | [05 品牌与叙事](references/05-brand-and-narrative.md) |
+| 色彩战略、综合色场、高级色彩语言、可读性与输出诊断 | [04 图像与色彩](references/04-image-colour-and-data.md) |
+| 图表与信息图 | [04 图像与色彩](references/04-image-colour-and-data.md) |
+| 品牌战略、识别系统、差异化、叙事类型与视觉转译 | [05 品牌与叙事](references/05-brand-and-narrative.md) |
 | 网页／移动端／PPT／出版／海报／图像／视频／图表的边界与验收 | [06 多媒介交付](references/06-medium-workflows.md) |
 | 修改既有作品、比较多版、证据类型、回退与停止 | [07 修订与验证](references/07-revision-and-validation.md) |
 
