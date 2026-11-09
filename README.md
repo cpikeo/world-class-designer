@@ -2,7 +2,7 @@
 
 一个**判断层**技能：为具体受众、目标、内容和媒介作出准确、独特、可执行、可验证的设计决定。它回答“为什么这样设计、怎么判断它有效”；具体生产由专用技能与工具完成。
 
-当前版本 **v11.3.0**。
+当前版本 **v12.0.0**。
 
 ## 它做什么 / 不做什么
 
@@ -68,14 +68,16 @@ SKILL.md 第 7 节是运行时路由；下表供人工查阅。
 | 你现在要解决的问题 | 读哪份 |
 |---|---|
 | 任务理解、主张、内容取舍、概念、方案差异 | [01 判断与概念](references/01-judgment-and-concept.md) |
-| 信息架构、版面结构、组合、平衡、跨页与多页节奏 | [02 构图与张力](references/02-composition-and-tension.md) |
+| 信息架构、版面结构、结构命名、组合、平衡、跨页与多页节奏 | [02 构图与张力](references/02-composition-and-tension.md) |
+| 页面级连续性、区块继承、模块化断裂、整页缩略图判断 | [02 构图与张力](references/02-composition-and-tension.md) |
 | 字体与文字角色、行长行距、断行、CJK 混排、字体加载与渲染 | [03 字体与排印](references/03-typography.md) |
 | 图片职责、摄影指导、取景光线材质、裁切、真实性 | [04 图像与色彩](references/04-image-colour-and-data.md) |
-| 色彩战略、综合色场、高级色彩语言、可读性与输出诊断 | [04 图像与色彩](references/04-image-colour-and-data.md) |
+| 色彩战略、颜色职责、综合色场、高级色彩语言、跨页面色彩连续性、输出诊断 | [04 图像与色彩](references/04-image-colour-and-data.md) |
 | 图表与信息图 | [04 图像与色彩](references/04-image-colour-and-data.md) |
-| 品牌战略、识别系统、差异化、叙事类型与视觉转译 | [05 品牌与叙事](references/05-brand-and-narrative.md) |
-| 网页／移动端／PPT／出版／海报／图像／视频／图表的边界与验收 | [06 多媒介交付](references/06-medium-workflows.md) |
+| 品牌战略、识别语法、常量与变量、差异化、叙事类型与视觉转译 | [05 品牌与叙事](references/05-brand-and-narrative.md) |
+| 网页／移动端／PPT／出版／海报／图像／视频／图表的边界与验收、整页与序列检查 | [06 多媒介交付](references/06-medium-workflows.md) |
 | 修改既有作品、比较多版、证据类型、回退与停止 | [07 修订与验证](references/07-revision-and-validation.md) |
+| 跨区块/跨页断裂的归因与修正顺序 | [07 修订与验证](references/07-revision-and-validation.md) |
 
 通常 `04` 与 `02`／`03` 同时需要；`06` 在形成实际交付物时读对应媒介；`07` 在修订或验收时读。不要按编号全读，同一任务只加载一次 `04` 并按章节定位。
 
